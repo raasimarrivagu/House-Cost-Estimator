@@ -15,7 +15,7 @@ public class EstimateHouseCost {
 	 * gives the estimated cost of the house
 	 * @param type
 	 * @param area
-	 * @return
+	 * @return the cost based on the kind
 	 */
 	int costEstimation(String type,int area) {
 		switch(type) {
